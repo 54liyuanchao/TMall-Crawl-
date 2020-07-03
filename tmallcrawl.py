@@ -151,10 +151,10 @@ if __name__ == "__main__":
     # 使用之前请先查看当前目录下的使用说明文件README.MD
 
     chromedriver_path = "/Users/yuanchaoli/Downloads/chromedriver"  # 改成你的chromedriver的完整路径地址
-    weibo_username = "15222471238"  # 改成你的微博账号
-    weibo_password = "0ooo00ooo0"  # 改成你的微博密码
+    weibo_username = "**"  # 改成你的微博账号
+    weibo_password = "**"  # 改成你的微博密码
 
     a = tabao()
     a.login()  # 登录
-    a.get_data("足球")  # 登录
+    a.get_data("足球")  # 输入想要搜索的物品
     print('done')
